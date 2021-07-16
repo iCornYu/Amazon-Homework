@@ -1,0 +1,38 @@
+/* .amazon{
+    font-size: 70%;
+    text-align:center;
+    color:gray;
+    display: flex;
+    align-items: center;
+}
+
+.amazon::before,
+.amazon::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.amazon:not(:empty)::before {
+    margin-right: .25em;
+}
+  
+.amazon:not(:empty)::after {
+    margin-left: .25em;
+} */
+
+.amazon {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .amazon span { 
+    background: white; 
+    padding:0 10px; 
+    color:lightgray;
+    font-size:70%;
+
+ }
